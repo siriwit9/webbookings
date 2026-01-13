@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web App ของฉัน</title>
+    <style>
+        /* ตั้งค่าให้หน้าเว็บเต็มจอ ไม่มีขอบขาว */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* ซ่อน Scrollbar ของตัวโครงหลัก */
+        }
+        /* ตั้งค่า iframe ให้เต็มจอ */
+        iframe {
+            display: block;
+            width: 100%;
+            height: 100vh; /* ความสูงเท่ากับหน้าจอ 100% */
+            border: none; /* เอาขอบออก */
+        }
+    </style>
+</head>
+<body>
+
+    <iframe src="https://script.google.com/macros/s/AKfycbxi2D48C2f1-lbUuOiBm8TvZuUyvYsi6mox9NkM505S29auho0qBx2GKxA4r2GgYj7l/exec"></iframe>
+
+</body>
+</html>
